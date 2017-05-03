@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
 import MainContent from '../MainContent';
-import * as mStyle from '../../master-style';
+// import * as mStyle from '../../master-style';
 import * as style from './style.js';
 
 
 class App extends Component {
   render() {
     return (
-      <div style={style.wrapper}>
+      <div id='page' style={style.wrapper}>
         <Header />
         <div style={style.row}>
           <MainContent />

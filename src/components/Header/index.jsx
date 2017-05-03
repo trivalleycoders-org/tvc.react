@@ -1,10 +1,12 @@
 import React from 'react';
 import * as style from './style';
+import Brand from '../Brand';
+import Nav from '../Nav';
 
 const Header = () => (
-  <div style={style.wrapper}>
-    <img style={style.tvcLogo} src="http://klequis.com/images/logo.store/tvc.05.svg" alt=""></img>
-    <p>Tri-Valley Coders</p>
+  <div id='header' style={style.wrapper}>
+    <Brand />
+    <Nav />
   </div>
 );
 

@@ -2,9 +2,9 @@ import React from 'react';
 import * as style from './style';
 
 const Sidebar = () => (
-  <div style={style.wrapper}>
+  <div id='sidebar' style={style.wrapper}>
 
-    
+
   </div>
 );
 
